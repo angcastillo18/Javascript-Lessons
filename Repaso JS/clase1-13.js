@@ -1,7 +1,7 @@
 //Evita escribir mal,errores gramaticales
 /*
-Elimina algunos errores silenciosos de JavaScript cambi醤dolos a que lancen errores.
-Corrige errores que hacen dif韈il para los motores de JavaScript realizar optimizaciones: a veces, el c骴igo en modo estricto puede correr m醩 r醦ido que un c骴igo id閚tico pero no estricto.
+Elimina algunos errores silenciosos de JavaScript cambi谩ndolos a que lancen errores.
+Corrige errores que hacen dif铆cil para los motores de JavaScript realizar optimizaciones: a veces, el c贸digo en modo estricto puede correr m谩s r谩pido que un c贸digo id茅ntico pero no estricto.
 Prohibe cierta sintaxis que probablemente sean definidas en futuras versiones de ECMAScript.
 */
 "use strict"
@@ -29,9 +29,14 @@ var simbolo=Symbol();
 // variable++ o -- postincremento (precedencia en operadores aritmeticos)=*/%+-
 // ++variable preincremento
 var uno=23;
-var dos=15;
+var dos=23;
 //uno++;
 //Operadores relacionales
 //<,>,<=,>=,==,!=, ===
-document.write(uno===dos);
-//Operadores logicos. Tiempo = 1:03:58
+//Operadores logicos. &&= y  || = o  ! = negaci贸n
+//Operadores de asignaci贸n = uno+=10
+
+//Operador Ternario
+//condicion ? true : false;
+document.write(uno==dos ? "Es igual" : "No es igual");
+//Operadores de concatenaci贸n + 
